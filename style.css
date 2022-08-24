@@ -9,9 +9,6 @@ body {
     left: 0;
     position: fixed;
     z-index: 1000;
-    /* float: left; */
-    /* overflow: auto; */
-    /* z-index: 999; */
 }
 
 .panel {
