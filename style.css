@@ -1,0 +1,100 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+}
+
+.dark-button {
+    top: 50%;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+    /* float: left; */
+    /* overflow: auto; */
+    /* z-index: 999; */
+}
+
+.panel {
+    background-color: white;
+    color: black;
+}
+
+
+/* Dark Mode */
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.row.content {
+    height: 500px;
+}
+
+.body_content {
+    height: auto;
+    /* margin-bottom: 1000px; */
+}
+
+h1 {
+    font-family: 'Trebuchet MS'
+}
+
+p {
+    font-family: Garamond, serif;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+.mt-5 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.img {
+    margin-left: 150px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+hr {
+    border: 1px solid;
+}
+
+#fade1 {
+    display: none;
+}
+
+#fade2 {
+    display: none;
+}
+
+#show2 {
+    display: none;
+}
+
+#hide1 {
+    display: none;
+}
+
+#hide2 {
+    display: none;
+}
